@@ -1,0 +1,16 @@
+
+body {
+    color: #000;
+    font-family: Monospace;
+    font-size: 13px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.dg {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
