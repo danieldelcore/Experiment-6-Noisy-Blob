@@ -21,6 +21,7 @@ export default class Blob {
 
         image.onload = () => (alphaMap.needsUpdate = true);
         image.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGUlEQVQoU2NkYGD4z4AHMP7//x+/gmFhAgCXphP14bko/wAAAABJRU5ErkJggg==';
+
         material.alphaMap = alphaMap;
         material.alphaMap.magFilter = THREE.NearestFilter;
         material.alphaMap.wrapT = THREE.RepeatWrapping;
